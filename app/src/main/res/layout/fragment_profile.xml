@@ -54,11 +54,11 @@
 
             <TextView
                 android:id="@+id/tv_user_id"
-                android:layout_marginTop="4dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/tv_user_name"
                 android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
                 android:textColor="@android:color/holo_red_light" />
 
 
@@ -72,9 +72,9 @@
         android:clipToPadding="false">
 
         <LinearLayout
-            android:background="@android:color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/white"
             android:orientation="vertical">
 
             <TextView
@@ -84,8 +84,7 @@
                 android:layout_marginBottom="8dp"
                 android:text="@string/menu"
                 android:textAllCaps="true"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textColor="@color/colorPrimaryDark" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -260,8 +259,7 @@
                 android:layout_marginStart="32dp"
                 android:layout_marginBottom="8dp"
                 android:text="@string/term_policies"
-                android:textColor="@color/colorPrimaryDark"
-                android:textSize="16sp" />
+                android:textColor="@color/colorPrimaryDark" />
 
             <LinearLayout
                 android:layout_width="match_parent"
