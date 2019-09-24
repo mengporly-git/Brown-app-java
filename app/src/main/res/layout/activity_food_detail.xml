@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.activity.FoodDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/actionbar"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_background" />
+
+        <ImageView
+            android:id="@+id/iv_back_merchandise"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/back"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/foods"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@drawable/tab_background"
+        app:tabIndicatorColor="#57473D"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="scrollable"
+        app:tabRippleColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/darker_gray">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_sandwich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/all_day_caf_sandwiches" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_breakfast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/brown_breakfast" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_pasta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pasta" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_salad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/salad" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_cold_sandwich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cold_sandwiches" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

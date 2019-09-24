@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name">Brown Coffee</string>
+    <string name="logo">logo</string>
+    <string name="brown_coffee">Brown Coffee</string>
+    <string name="home">Home</string>
+    <string name="promotion">Promotion</string>
+    <string name="store">Store</string>
+    <string name="profile">Profile</string>
+    <string name="actionbar">actionBar</string>
+    <string name="beverage">Beverage</string>
+    <string name="pastries_dessert"><![CDATA[Pastries & Dessert]]></string>
+    <string name="foods">Foods</string>
+    <string name="coffee_bean">Coffee Bean</string>
+    <string name="merchandise">Merchandise</string>
+    <string name="brown_delivery_service">BROWN Delivery Service</string>
+    <string name="promotion_detail">PROMOTION DETAIL</string>
+    <string name="back">back</string>
+    <string name="fb_brown_coffee">www.facebook.com/browncoffee.kh</string>
+    <string name="promotion_content1">
+        ដឹងទេថាសេវាកម្ម Delivery ប្រោនមានអ្វីពិសេស?\nទូរស័ព្ទមកលេខ <a href="number">023-215-215</a>
+        មកឥឡូវនេះអ្នកនឹងទទួលបានការផ្តល់ជូនជាពិសេស៖\nរាល់ការជាវភេសជ្ជៈ៩កែវនឹងទទួល១កែវទៀតដោយឥតគិតថ្លៃ\n\n
+        Brown Delivery Service exclusive offer Call to Brown delivery hot-line <a href="number">023-215-215</a>
+        to order 9 cups of
+        your <![CDATA[&]]> your friends or family favorite beverages, you will get another cup for free\n\n
+        លក្ខខណ្ឌ៖\n
+        - សេវាកម្ម Delivery ដោយឥតគិតថ្លៃចាប់ពី ៨ដុល្លារ (ឬ ៥០សេនសម្រាប់ការកុម៉្មង់ក្រោម៨ដុល្លារ​ | ការកុម៉្មង់តម្រូវចាប់ពី ៥ដុល្លារឡើង)\n
+        - ជារៀងរាល់ថ្ងៃ ចាប់ពីម៉ោង ៧ព្រឹក ដល់ ៥ល្ងាច\n
+        Terms:\n
+        - Free delivery service when you order $8 and above (or 50 cents charged for below $8 with $5 minimum order)\n
+        - Everyday from 7AM-5PM\n
+
+    </string>
+    <string name="promotion_content2">
+        រដូវវស្សាបានឈានចូលមកដល់ហើយ! សម្រាប់រដូវកាលនេះ BROWN បាននាំមកជូននូវភេសជ្ជៈថ្មីចំនួន២មុខគឺ ឡាមីឡូក្តៅ (Hot Lamilo) និង ម៉ាឆា អាវ៉ូកាដូ ហ្វ្រេព(Matcha Avocado Frappe)
+        សមស្របនឹងបរិយាកាសនៅក្នុងរដូវកាលនេះ។\n\n
+        រីករាយជាមួយនឹងការនាំជូនភេសជ្ជៈដែលមានជាតិកាហ្វេ បន្ថែមដោយក្លិន និងរសជាតិមីឡូដែលមានរសជាតិស្រទន់ ក្តៅល្មមក្នុងការទទួលទាន ​ជាពិសេសនៅពេលភ្លៀងធ្លាក់ស្រិចៗ និងភេសជ្ជៈដើម្បីសុខភាព មានផ្លែប៊័រជាមួយតែបៃតង ដែលមានគុណសម្បត្តិជាច្រើនជួយដល់សុខភាព។
+        បងអាចទិញភេសជ្ជៈទាំង២នេះ ចាប់ពីថ្ងៃទី១ ដល់ ៣០ ខែកញ្ញា។\n\n
+        បងៗអាចមកសាកល្បងទាំងគ្នាបាននៅគ្រប់សាខារបស់ BROWN ទាំងអស់ទាំងនៅភ្នំពេញ និងសៀមរាប។\n\n
+        Here come​​s our new drinks! For this season, BROWN brings about two new drinks, Hot Lamilo, and Matcha
+        Avocado Frappe. Hot Lamilo is the caffeinated drink that comes with Milo taste and aroma fits
+        best with the cool feeling and sensation during a rainy day, whereas, Matcha Avocado Frappe is
+        a drink which is rich of taste and antioxidant substances that is good for health. The two drinks
+        are available from 1st to 30th of September, 2019.\n\n
+        These top 2 rainy seasonal drinks are available at all BROWN stores in Phnom Penh and Siem Reap.
+    </string>
+    <string name="promotion_content3">
+        ប្រោនសូមណែនាំលក្ខខណ្ឌសេវាកម្មដឹកជញ្ជូនដល់ទីកន្លែងរហ័សទាន់ចិត្តថ្មីឥតគិតថ្លៃលើសេវាដឹកជញ្ជូន (តម្រូវចាប់ពី $8ឡើងទៅ) ឬ ៥០ សេនសម្រាប់ការកុម៉្មង់តិចជាង$8 (តម្រូវចាប់ពី$5 ឡើងទៅ)អតិថិជនអាចទូរស័ព្ទមកលេខ <a href="number">023-215-215</a> Deliveryman របស់ប្រោននឹងដឹកយកភេសជ្ជៈ​ អាហារ ឬ នំដែលបានកុម៉្មង់ជូនដល់ទីកន្លែង ដែលអាចសន្សំសំចៃពេលវេលា និង ផ្តល់ភាពងាយស្រួលជូនអតិថិជនគ្រប់ៗគ្នា។\n\n
+        > រៀងរាល់ថ្ងៃ ចាប់ពីម៉ោង ៧ព្រឹក-៥ល្ងាច (ទីក្រុងភ្នំពេញប៉ុណ្ណោះ)\n\n
+        Introducing new Brown Delivery Service terms <![CDATA[&]]> conditions
+        Free delivery for order from $8 or 50 cents fee will be charged for order below $8 (minimum order starts at $5)
+        Save your time from the convenience of your desk/home by calling <a href="number">023-215-215</a>. Brown Deliveryman
+        will deliver your favorite drinks, food or pastries right to your front door :)\n\n
+        > Every day from 7AM-5PM (Phnom Penh only)
+    </string>
+    <string name="iv">IV</string>
+    <string name="store_detail">STORE DETAIL</string>
+    <string name="contact">Contact</string>
+    <string name="address">Address</string>
+    <string name="_06_30_am_09_00_pm">06:30 AM - 09:00 PM</string>
+    <string name="everyday">Everyday</string>
+    <string name="opening_time">Opening time</string>
+    <string name="todo">TODO</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="log_in">Log In</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="text_register">To complete the registration procedure, please fill the required fields.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="soft_drinks_fresh_juice"><![CDATA[Soft Drinks & Fresh Juice]]></string>
+    <string name="smoothies">Smoothies</string>
+    <string name="hot_tea">Hot Tea</string>
+    <string name="hot_drinks">Hot Drinks</string>
+    <string name="frappe">Frappe</string>
+    <string name="cold_drinks">Cold Drinks</string>
+    <string name="bakery_pastry"><![CDATA[Bakery & Pastry]]></string>
+    <string name="cake">Cake</string>
+    <string name="all_day_caf_sandwiches">All Day Café Sandwiches</string>
+    <string name="brown_breakfast">Brown Breakfast</string>
+    <string name="salad">Salad</string>
+    <string name="pasta">Pasta</string>
+    <string name="cold_sandwiches">COLD SANDWICHES</string>
+    <string name="menu">menu</string>
+    <string name="brown_card">brown card</string>
+    <string name="my_favorite">my favorite</string>
+    <string name="my_prizes">my prizes</string>
+    <string name="camera">camera</string>
+    <string name="qr_game">qr game</string>
+    <string name="term_policies"><![CDATA[TERM & POLICIES]]></string>
+    <string name="others">others</string>
+    <string name="sign_out">sign out</string>
+    <string name="user_name">user name</string>
+    <string name="user_id_12345">User ID : 12345</string>
+    <string name="send">Send</string>
+
+
+</resources>

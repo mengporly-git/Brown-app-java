@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "572564292816",
+    "firebase_url": "https://brown-coffee.firebaseio.com",
+    "project_id": "brown-coffee",
+    "storage_bucket": "brown-coffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572564292816:android:9fc91cbbad588bb70acad5",
+        "android_client_info": {
+          "package_name": "com.example.browncoffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572564292816-ue85pabira2q0dk0j29otds74nva1c2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.browncoffee",
+            "certificate_hash": "151f9e084b7532262899d5cae01dc175b315bca3"
+          }
+        },
+        {
+          "client_id": "572564292816-p57sk20bcpg6a5kq78hocqptasaqkhr7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJIucfWzTU-b4IUUfTsWKx8yxreKk6_zU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572564292816-p57sk20bcpg6a5kq78hocqptasaqkhr7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

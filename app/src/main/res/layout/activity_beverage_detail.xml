@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen.activity.BeverageDetailActivity">
+
+    <RelativeLayout
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/actionbar"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_background" />
+
+        <ImageView
+            android:id="@+id/iv_back_merchandise"
+            android:layout_width="?attr/actionBarSize"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/back"
+            android:padding="8dp"
+            android:src="@drawable/ic_arrow_left" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/beverage"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabLayout_beverage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabBackground="@drawable/tab_background"
+        app:tabIndicatorColor="#57473D"
+        app:tabIndicatorHeight="4dp"
+        app:tabMode="scrollable"
+        app:tabRippleColor="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/darker_gray">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_cold_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cold_drinks" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_frappe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frappe" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_hot_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_drinks" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_hot_tea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_tea" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_smoothies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/smoothies" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_soft_drink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/soft_drinks_fresh_juice" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
