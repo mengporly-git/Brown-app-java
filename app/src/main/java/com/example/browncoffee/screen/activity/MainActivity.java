@@ -46,41 +46,39 @@ public class MainActivity extends AppCompatActivity {
             @SuppressLint("SetTextI18n")
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                switch (menuItem.getItemId()) {
-                    case R.id.action_home:
-                        fm.beginTransaction().replace(R.id.content_main, fragmentHome).commit();
+                if (menuItem.getItemId() == R.id.action_home) {
+                    fm.beginTransaction().replace(R.id.content_main, fragmentHome).commit();
+                    relativeLayout.setVisibility(View.VISIBLE);
+                    textView.setBackground(getDrawable(R.drawable.brown_logo));
+                    textView.setText("");
+                    return true;
+                } else if (menuItem.getItemId() == R.id.action_promotion) {
+                    fm.beginTransaction().replace(R.id.content_main, fragmentPromotion).commit();
+                    relativeLayout.setVisibility(View.VISIBLE);
+                    textView.setBackground(getDrawable(R.drawable.brown_logo));
+                    textView.setText("");
+                    return true;
+                } else if (menuItem.getItemId() == R.id.action_store) {
+                    fm.beginTransaction().replace(R.id.content_main, fragmentStore).commit();
+                    relativeLayout.setVisibility(View.VISIBLE);
+                    textView.setText("STORE LIST");
+                    textView.setBackground(null);
+                    return true;
+                } else if (menuItem.getItemId() == R.id.action_profile) {
+                    user = FirebaseAuth.getInstance().getCurrentUser();
+                    if (user != null) {
                         relativeLayout.setVisibility(View.VISIBLE);
                         textView.setBackground(getDrawable(R.drawable.brown_logo));
                         textView.setText("");
-                        return true;
-                    case R.id.action_promotion:
-                        fm.beginTransaction().replace(R.id.content_main, fragmentPromotion).commit();
-                        relativeLayout.setVisibility(View.VISIBLE);
-                        textView.setText("PROMOTION");
-                        textView.setBackground(null);
-                        return true;
-                    case R.id.action_store:
-                        fm.beginTransaction().replace(R.id.content_main, fragmentStore).commit();
-                        relativeLayout.setVisibility(View.VISIBLE);
-                        textView.setText("STORE LIST");
-                        textView.setBackground(null);
-                        return true;
-                    case R.id.action_profile:
                         user = FirebaseAuth.getInstance().getCurrentUser();
-                        if (user != null) {
-                            relativeLayout.setVisibility(View.VISIBLE);
-                            textView.setBackground(getDrawable(R.drawable.brown_logo));
-                            textView.setText("");
-                            user = FirebaseAuth.getInstance().getCurrentUser();
-                            Bundle bundle = new Bundle();
-                            bundle.putString("email", user.getEmail());
-                            fragmentProfile.setArguments(bundle);
-                            fm.beginTransaction().replace(R.id.content_main, fragmentProfile).commit();
-                            return true;
-                        } else {
-                            startActivityForResult(new Intent(getApplicationContext(), LoginActivity.class), 123);
-                            return true;
-                        }
+                        Bundle bundle = new Bundle();
+                        bundle.putString("email", user.getEmail());
+                        fragmentProfile.setArguments(bundle);
+                        fm.beginTransaction().replace(R.id.content_main, fragmentProfile).commit();
+                    } else {
+                        startActivityForResult(new Intent(getApplicationContext(), LoginActivity.class), 123);
+                    }
+                    return true;
                 }
                 return false;
             }
